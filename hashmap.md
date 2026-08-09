@@ -3,7 +3,7 @@ How does hashmap's works internally?
 A HashMap stores key-value pairs. A hash function converts the key into a bucket number. The bucket stores one or more key-value pairs. If multiple keys map to the same bucket, a collision occurs. When buckets become too full, the map resizes by creating more buckets and rehashing the existing keys.
 
 
-So whay we need hashmaps:--> for speed. if we have millions of users stored we can't go and search linearly like where does each user stored instead of that we had buckets like 1 to. 100 users stored in the bucket 1 and 200 to 300 stored in the bucket 2 so searching becomes fast simply like indexing in the db
+So why we need hashmaps:--> for speed. if we have millions of users stored we can't go and search linearly like where does each user stored instead of that we had buckets like 1 to. 100 users stored in the bucket 1 and 200 to 300 stored in the bucket 2 so searching becomes fast simply like indexing in the db
 
 Hashfucntion: hashfunction that takes the key as a input and computes the hashvalue(bucket) where the key should be stored
 For example:

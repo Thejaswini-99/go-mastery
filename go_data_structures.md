@@ -15,6 +15,7 @@ arr := [2][4]int{
 -->Elements in the arrays can be accesed using the indexes 
 ---> the capacity and length of the array are same 
 
+
 Slice:
 
 Slice is also a collection of elements but the size is flexible
